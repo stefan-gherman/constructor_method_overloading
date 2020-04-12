@@ -83,8 +83,8 @@ public class Product {
                 ", name='" + name + '\'' +
                 ", defaultPrice=" + defaultPrice +
                 ", defaultCurrency=" + defaultCurrency +
-                ", productCategory=" + productCategory +
-                ", supplier=" + supplier +
+                ", productCategory=" + productCategory.getName() +
+                ", supplier=" + supplier.getName() +
                 '}';
     }
 }

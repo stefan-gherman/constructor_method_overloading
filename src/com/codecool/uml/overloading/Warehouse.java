@@ -12,6 +12,10 @@ public class Warehouse {
     }
 
     public List<Product> getProducts() {
+        for (Product product:productList
+             ) {
+
+        }
         return productList;
     }
 
@@ -36,5 +40,11 @@ public class Warehouse {
             }
         }
         return productsFilteredByProductBySupplier;
+    }
+    public void printProductsList(List<Product> prodList){
+        for (Product product:prodList
+        ) {
+            System.out.println(product.toString());
+        }
     }
 }
